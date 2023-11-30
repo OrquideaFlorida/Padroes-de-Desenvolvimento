@@ -19,4 +19,4 @@ class PcFactory implements compFactory {
         return `** PC **\n- RAM: ${this.getRam()}GB\n- HD: ${this.getHdd()}GB\n- CPU: ${this.getCpu()}GHz`;
     }
 }
-export {pcFactory};
+export {PcFactory};
